@@ -1,5 +1,6 @@
 Fusion Generator! WIP, check out the GitHub code!
 
+<div id="fusiongen">
 <select name="fuse1">
   <option value="steven">Steven</option>
   <option value="ruby">Ruby</option>
@@ -21,3 +22,16 @@ Fusion Generator! WIP, check out the GitHub code!
   <option value="amy">Amy</option>
   <option value="pearl">Pearl</option>
 </select>
+<button type="button">Generation</button>
+</div>
+
+<script>
+  var fuse1 = document.getElementById("fuse1");
+  var fuse2 = document.getElementById("fuse2");
+  var fuse3 = document.getElementById("fuse3");
+  function fuse() {
+    if fuse1.options[e.selectedIndex].text == "Steven" and fuse1.options[e.selectedIndex].text == "Amy" {
+      alert("Smoky Quartz");
+    }
+  }
+</script>
